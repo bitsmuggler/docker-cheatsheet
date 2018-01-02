@@ -16,6 +16,8 @@
 |Docker Netzwerk analysieren (Welche Container laufen in welchem Netzwerk)|`docker network inspect <<netzwerk-name>>`|
 |Interne IP von einem Docker Container anzeigen lassen| `docker inspect --format '{{ .NetworkSettings.IPAddress }}' <<Docker Container>>`|
 |Nicht mehr benötigte ('dangling') Containers, Volumes und Images löschen.|`docker system prune`|
+|Alle Docker Container beenden|`docker stop $(docker ps -a -q)`|
+|Alle Docker Container löschen|`docker rm $(docker ps -a -q)`|
 
 ## docker-compose
 docker-compose ermöglicht Docker Container anhand dem docker-compose.yml zu verwalten.
