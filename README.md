@@ -18,6 +18,7 @@
 |Nicht mehr benötigte ('dangling') Containers, Volumes und Images löschen.|`docker system prune`|
 |Alle Docker Container beenden|`docker stop $(docker ps -a -q)`|
 |Alle Docker Container löschen|`docker rm $(docker ps -a -q)`|
+|Docker Container Logs anzeigen|`docker logs <<Container ID>>|
 
 ## docker-compose
 docker-compose ermöglicht Docker Container anhand dem docker-compose.yml zu verwalten.
