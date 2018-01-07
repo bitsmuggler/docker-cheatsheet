@@ -19,6 +19,7 @@
 |Alle Docker Container beenden|`docker stop $(docker ps -a -q)`|
 |Alle Docker Container löschen|`docker rm $(docker ps -a -q)`|
 |Docker Container Logs anzeigen|`docker logs <<Container ID>>`|
+|Docker Container die letzten 100 Log Einträge anschauen|`docker logs --tail 100 <<Container ID>>`|
 
 ## docker-compose
 docker-compose ermöglicht Docker Container anhand dem docker-compose.yml zu verwalten.
