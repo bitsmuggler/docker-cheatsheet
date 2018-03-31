@@ -22,6 +22,8 @@
 |Docker Container die letzten 100 Log Einträge anschauen|`docker logs --tail 100 <<Container ID>>`|
 |Docker Volumes anzeigen|`docker volume ls`| 
 |Eigenschaften von einem Docker Volume anzeigen|`docker volume inspect <<Volume Name>>`|
+|Alle nicht mehr benötigten Volumes löschen|`docker volume prune`|
+|Alle nicht mehr benötigten Containers, Networks, Images, und optional Volumes|`docker system prune`|
 
 ## docker-compose
 docker-compose ermöglicht Docker Container anhand dem docker-compose.yml zu verwalten.
