@@ -33,6 +33,7 @@ docker-compose ermöglicht Docker Container anhand dem docker-compose.yml zu ver
 | Docker Container anzeigen| `docker-compose ps` |
 | Docker Container bauen|`docker-compose build --no-cache`|
 | Docker Container bauen & starten|`docker-compose up -d`| 
+| Docker Container bauen anhand spezifischem yml & starten|`docker-compose -f docker-compose.local.yml up -d`| 
 | Docker Container stoppen| `docker-compose stop`|
 | Docker Container löschen|`docker-compose rm -f`|
 | Docker Container stoppen und löschen|`docker-compose down`|
