@@ -24,6 +24,7 @@
 |Eigenschaften von einem Docker Volume anzeigen|`docker volume inspect <<Volume Name>>`|
 |Alle nicht mehr benötigten Volumes löschen|`docker volume prune`|
 |Alle nicht mehr benötigten Containers, Networks, Images, und optional Volumes|`docker system prune`|
+|Docker Image löschen| `docker rmi <<image name>>
 
 ## docker-compose
 docker-compose ermöglicht Docker Container anhand dem docker-compose.yml zu verwalten.
