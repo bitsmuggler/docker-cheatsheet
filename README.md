@@ -27,6 +27,7 @@
 | Alle nicht mehr benötigten Containers, Networks, Images, und optional Volumes |`docker system prune`|
 | Docker Image löschen | `docker rmi <<image name>>`
 | Image bauen | `docker build -t <<image name>> .`|
+| Container neustarten | `docker restart <<container id>>`|
 
 ## docker-compose
 docker-compose ermöglicht Docker Container anhand dem docker-compose.yml zu verwalten.
