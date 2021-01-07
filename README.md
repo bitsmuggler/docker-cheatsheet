@@ -28,6 +28,7 @@
 | Docker Image löschen | `docker rmi <<image name>>`
 | Image bauen | `docker build -t <<image name>> .`|
 | Container neustarten | `docker restart <<container id>>`|
+| Lokale images anzeigen | `docker images --all`|
 
 ## docker-compose
 docker-compose ermöglicht Docker Container anhand dem docker-compose.yml zu verwalten.
