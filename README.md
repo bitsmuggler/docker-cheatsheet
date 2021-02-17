@@ -25,7 +25,7 @@
 | Eigenschaften von einem Docker Volume anzeigen |`docker volume inspect <<Volume Name>>`|
 | Alle nicht mehr benötigten Volumes löschen |`docker volume prune`|
 | Alle nicht mehr benötigten Containers, Networks, Images, und optional Volumes |`docker system prune`|
-| Docker Image löschen | `docker rmi <<image name>>`
+| Docker Image löschen | `docker rmi <<image1 name>> <<image2 name>> <<image n name>>`
 | Image bauen | `docker build -t <<image name>> .`|
 | Container neustarten | `docker restart <<container id>>`|
 | Lokale images anzeigen | `docker images --all`|
